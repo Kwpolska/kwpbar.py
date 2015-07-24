@@ -22,6 +22,10 @@ KwPBar for Python
 
    Return terminal length, internal helper function.
 
+See also
+========
+
+`KwPBar for C <https://github.com/Kwpolska/kwpbar.c>`_
 
 Other documents
 ===============
