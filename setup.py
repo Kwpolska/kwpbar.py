@@ -19,7 +19,7 @@ class PyTest(TestCommand):
         sys.exit(errno)
 
 setup(name='kwpbar',
-      version='0.1.0',
+      version='0.1.1',
       description='A progress bar for Python.',
       keywords='kwpbar',
       author='Chris Warrick',
