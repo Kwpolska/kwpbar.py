@@ -7,7 +7,7 @@ PROJECTLC="kwpbar"
 # GitHub username.
 GITUSER="Kwpolska"
 # Git repository name.  Using $PROJECTLC is recommended.
-GITREPO=$PROJECTLC
+GITREPO="kwpbar.py"
 
 # Locale type.  One of:
 # none          Do not generate nor use any locales.
