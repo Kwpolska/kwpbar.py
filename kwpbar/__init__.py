@@ -1,5 +1,5 @@
 # -*- encoding: utf-8 -*-
-# KwPBar for Python v0.1.0
+# KwPBar for Python v0.1.1
 # Copyright © 2015, Chris Warrick.
 # All rights reserved.
 #
@@ -42,7 +42,7 @@ import subprocess
 import sys
 
 __title__ = 'KwPBar for Python'
-__version__ = '0.1.0'
+__version__ = '0.1.1'
 __author__ = 'Chris Warrick'
 __license__ = '3-clause BSD'
 __docformat__ = 'restructuredtext en'
