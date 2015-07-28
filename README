@@ -4,8 +4,8 @@ KwPBar for Python
 :Info: This is the README file for KwPBar.
 :Author: Chris Warrick <chris@chriswarrick.com>
 :Copyright: © 2015, Chris Warrick.
-:Date: 2015-07-24
-:Version: 0.1.0
+:Date: 2015-07-28
+:Version: 0.1.1
 
 .. index: README
 .. image:: https://travis-ci.org/Kwpolska/kwpbar.py.svg?branch=master
