@@ -1,6 +1,6 @@
 # -*- encoding: utf-8 -*-
 # KwPBar for Python v0.1.1
-# Copyright © 2015, Chris Warrick.
+# Copyright © 2015-2016, Chris Warrick.
 # All rights reserved.
 #
 # Redistribution and use in source and binary forms, with or without
@@ -34,7 +34,7 @@
 """
 A progress bar for Python.
 
-:Copyright: © 2015, Chris Warrick.
+:Copyright: © 2015-2016, Chris Warrick.
 :License: BSD (see /LICENSE).
 """
 

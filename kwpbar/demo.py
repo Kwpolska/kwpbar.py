@@ -1,13 +1,13 @@
 # -*- encoding: utf-8 -*-
 # KwPBar for Python 0.1.0
 # A progress bar for Python.
-# Copyright © 2015, Chris Warrick.
+# Copyright © 2015-2016, Chris Warrick.
 # See /LICENSE for licensing information.
 
 """
 Demo module.
 
-:Copyright: © 2015, Chris Warrick.
+:Copyright: © 2015-2016, Chris Warrick.
 :License: BSD (see /LICENSE).
 """
 
