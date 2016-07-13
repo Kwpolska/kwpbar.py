@@ -9,6 +9,7 @@ KwPBar for Python
 
 .. index: README
 .. image:: https://travis-ci.org/Kwpolska/kwpbar.py.svg?branch=master
+   :target: https://travis-ci.org/Kwpolska/kwpbar.py
 
 A simple progress bar for Python programs.
 
