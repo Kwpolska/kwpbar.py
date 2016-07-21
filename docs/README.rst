@@ -3,12 +3,13 @@ KwPBar for Python
 =================
 :Info: This is the README file for KwPBar.
 :Author: Chris Warrick <chris@chriswarrick.com>
-:Copyright: © 2015, Chris Warrick.
+:Copyright: © 2015-2016, Chris Warrick.
 :Date: 2015-07-28
 :Version: 0.1.1
 
 .. index: README
 .. image:: https://travis-ci.org/Kwpolska/kwpbar.py.svg?branch=master
+   :target: https://travis-ci.org/Kwpolska/kwpbar.py
 
 A simple progress bar for Python programs.
 
@@ -44,7 +45,7 @@ SEE ALSO
 
 COPYRIGHT
 ---------
-Copyright © 2015, Chris Warrick.
+Copyright © 2015-2016, Chris Warrick.
 All rights reserved.
 
 Redistribution and use in source and binary forms, with or without

@@ -7,10 +7,10 @@ pkgrel=1
 pkgdesc='A progress bar for Python.'
 arch=('any')
 url='https://github.com/Kwpolska/kwpbar.py'
-license=('???')
+license=('BSD')
 makedepends=('python' 'python2' 'python-setuptools' 'python2-setuptools')
 options=(!emptydirs)
-source=("https://pypi.python.org/packages/source/${_pyname:0:1}/${_pyname}/${_pyname}-${pkgver}.tar.gz")
+source=("https://files.pythonhosted.org/packages/source/${_pyname:0:1}/${_pyname}/${_pyname}-${pkgver}.tar.gz")
 md5sums=('690f047d87983602016989bfc57bfb2b')
 
 prepare() {
