@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- encoding: utf-8 -*-
 # KwPBar for Python — test suite
-# Copyright © 2015-2016, Chris Warrick.
+# Copyright © 2015-2017, Chris Warrick.
 # See /LICENSE for licensing information.
 
 import pytest
