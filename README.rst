@@ -3,7 +3,7 @@ KwPBar for Python
 =================
 :Info: This is the README file for KwPBar.
 :Author: Chris Warrick <chris@chriswarrick.com>
-:Copyright: © 2015-2017, Chris Warrick.
+:Copyright: © 2015-2018, Chris Warrick.
 :Date: 2015-07-28
 :Version: 0.1.1
 
@@ -45,7 +45,7 @@ SEE ALSO
 
 COPYRIGHT
 ---------
-Copyright © 2015-2017, Chris Warrick.
+Copyright © 2015-2018, Chris Warrick.
 All rights reserved.
 
 Redistribution and use in source and binary forms, with or without

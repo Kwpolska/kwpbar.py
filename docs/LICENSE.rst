@@ -3,14 +3,14 @@ Appendix B. License for KwPBar for Python
 =======================================================
 :Info: This is the license for KwPBar for Python.
 :Author: Chris Warrick <chris@chriswarrick.com>
-:Copyright: © 2015-2017, Chris Warrick.
+:Copyright: © 2015-2018, Chris Warrick.
 :License: BSD (see /LICENSE or :doc:`Appendix B <LICENSE>`.)
 :Date: 2015-07-28
 :Version: 0.1.1
 
 .. index:: LICENSE
 
-Copyright © 2015-2017, Chris Warrick.
+Copyright © 2015-2018, Chris Warrick.
 All rights reserved.
 
 Redistribution and use in source and binary forms, with or without
