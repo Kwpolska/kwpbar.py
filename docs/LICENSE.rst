@@ -6,7 +6,7 @@ Appendix B. License for KwPBar for Python
 :Copyright: © 2015-2018, Chris Warrick.
 :License: BSD (see /LICENSE or :doc:`Appendix B <LICENSE>`.)
 :Date: 2018-09-03
-:Version: 0.2.0
+:Version: 0.2.1
 
 .. index:: LICENSE
 

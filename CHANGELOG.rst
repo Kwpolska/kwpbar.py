@@ -6,7 +6,7 @@ Appendix C. Changelog
 :Copyright: © 2015-2018, Chris Warrick.
 :License: BSD (see /LICENSE or :doc:`Appendix B <LICENSE>`.)
 :Date: 2018-09-03
-:Version: 0.2.0
+:Version: 0.2.1
 
 .. index:: CHANGELOG
 
@@ -19,6 +19,10 @@ More information can be found on GitHub in the `releases section
 Version History
 ===============
 
+0.2.1
+    * Do not report negative terminal widths
+    * Run tests on 3.5 and 3.6
+
 0.2.0
     * Replace subprocess call with shutil.get_terminal_size
       (on compatible platforms)
@@ -28,6 +32,10 @@ Version History
 
 0.1.0
     Initial release.
+
+0.2.1
+    * Do not report negative terminal widths
+    * Run tests on 3.5 and 3.6
 
 0.2.0
     * Replace subprocess call with shutil.get_terminal_size

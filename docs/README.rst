@@ -5,7 +5,7 @@ KwPBar for Python
 :Author: Chris Warrick <chris@chriswarrick.com>
 :Copyright: © 2015-2018, Chris Warrick.
 :Date: 2018-09-03
-:Version: 0.2.0
+:Version: 0.2.1
 
 .. index: README
 .. image:: https://travis-ci.org/Kwpolska/kwpbar.py.svg?branch=master

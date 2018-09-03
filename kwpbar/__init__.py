@@ -1,5 +1,5 @@
 # -*- encoding: utf-8 -*-
-# KwPBar for Python v0.2.0
+# KwPBar for Python v0.2.1
 # Copyright © 2015-2018, Chris Warrick.
 # All rights reserved.
 #
@@ -43,7 +43,7 @@ import subprocess  # used only on Python 2
 import sys
 
 __title__ = 'KwPBar for Python'
-__version__ = '0.2.0'
+__version__ = '0.2.1'
 __author__ = 'Chris Warrick'
 __license__ = '3-clause BSD'
 __docformat__ = 'restructuredtext en'
@@ -54,14 +54,18 @@ __all__ = ('pbar', 'erase_pbar')
 def get_termwidth(default=80):
     """Get the width of this terminal."""
     try:  # pragma: no cover
-        return shutil.get_terminal_size((default, default)).columns
+        width = shutil.get_terminal_size((default, default)).columns
     except AttributeError:
         # Python 2
         try:
             size = subprocess.check_output(['stty', 'size'])
-            return int(size.split()[1]) or 80
+            width = int(size.split()[1]) or default
         except (IndexError, subprocess.CalledProcessError):
-            return 80
+            width = default
+    if width <= 0:
+        return default
+    else:
+        return width
 
 
 def pbar(value, max):
