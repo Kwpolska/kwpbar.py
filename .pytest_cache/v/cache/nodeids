@@ -1,0 +1,7 @@
+[
+  "tests/test_kwpbar.py::test_printing",
+  "tests/test_kwpbar.py::test_erasing",
+  "tests/test_kwpbar.py::test_fail1",
+  "tests/test_kwpbar.py::test_fail2",
+  "tests/test_kwpbar.py::test_fail3"
+]

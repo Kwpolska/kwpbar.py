@@ -2,7 +2,7 @@
 pkgbase=python-kwpbar
 pkgname=('python-kwpbar' 'python2-kwpbar')
 _pyname=kwpbar
-pkgver=0.1.1
+pkgver=0.2.0
 pkgrel=1
 pkgdesc='A progress bar for Python.'
 arch=('any')
@@ -11,7 +11,7 @@ license=('BSD')
 makedepends=('python' 'python2' 'python-setuptools' 'python2-setuptools')
 options=(!emptydirs)
 source=("https://files.pythonhosted.org/packages/source/${_pyname:0:1}/${_pyname}/${_pyname}-${pkgver}.tar.gz")
-md5sums=('690f047d87983602016989bfc57bfb2b')
+md5sums=('ce4fe5f03538c1f0666179762aa2366d')
 
 prepare() {
   cd "${srcdir}/${_pyname}-${pkgver}"

@@ -22,16 +22,16 @@ def test_erasing():
     kwpbar.erase_pbar()
 
 
-@pytest.mark.xfail(raises=ValueError)
 def test_fail1():
-    kwpbar.pbar(1, 0)
+    with pytest.raises(ValueError):
+        kwpbar.pbar(1, 0)
 
 
-@pytest.mark.xfail(raises=ValueError)
 def test_fail2():
-    kwpbar.pbar(2, 1)
+    with pytest.raises(ValueError):
+        kwpbar.pbar(2, 1)
 
 
-@pytest.mark.xfail(raises=ValueError)
 def test_fail3():
-    kwpbar.pbar(-2, 1)
+    with pytest.raises(ValueError):
+        kwpbar.pbar(-2, 1)
