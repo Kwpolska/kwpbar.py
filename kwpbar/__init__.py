@@ -55,14 +55,14 @@ def get_termwidth(default=80):
     """Get the width of this terminal."""
     try:  # pragma: no cover
         width = shutil.get_terminal_size((default, default)).columns
-    except AttributeError:
+    except AttributeError:  # pragma: no cover
         # Python 2
         try:
             size = subprocess.check_output(['stty', 'size'])
             width = int(size.split()[1]) or default
         except (IndexError, subprocess.CalledProcessError):
             width = default
-    if width <= 0:
+    if width <= 0:  # pragma: no cover
         return default
     else:
         return width
